@@ -1,0 +1,66 @@
+[
+    {
+        "sessionTitle": "Getting Started with Markdown",
+        "sessionDate": "Sunday, July 12",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "Beginner",
+        "sessionDescription": "​Markdown is a lightweight markup language that grew in popularity due to its simplicity and ease of use. It adds formatting elements to plaintext documents. Markdown can be used in a variety of ways: writing email, books, presentations, notes, technical documentation, and more. It is also portable, platform independent, future proof, and supported by many websites, tools, and desktop/web-based apps.",
+        "sessionPreReq": [
+            "Ability to save/edit files",
+            "Experience with using text editors"
+        ],
+        "sessionOutcomes": [
+            "​This course will introduce you to the fundamentals of Markdown, teaching you briefly about its history, why it’s so popular, and its uses. You will also learn the fundamentals of Markdown syntax. This course will also provide you with Markdown resources and guides so you can confidently start using Markdown in your daily tasks."
+        ],
+        "sessionRegisterLink": "https://www.eventbrite.com/e/getting-started-with-markdown-tickets-112401786770",
+        "sessionLink": "course-1",
+        "instructorName": "Regina Pilipchuk",
+        "instructorBio": "An accomplished technology student of Clark College working hard to inspire and challenge myself with meaningful web development and programming experiences. I enjoy exploring existing and emerging technologies to guide me through memorable educational journeys so I can showcase, with passion, the ever-evolving innovations of society.​",
+        "instructorImg": "https://ctec-assets.s3.amazonaws.com/regina.jpg"
+    },
+    {
+        "sessionTitle": "Database Normalization",
+        "sessionDate": "Sunday, July 19",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "Beginner",
+        "sessionDescription": "Learn how to organize the data tables you develop so that you avoid data processing issues with your code! This session covers database normalization rules and techniques up to the Third Normal Form, as well as the Boyd Codd Normal Form. This session information can be applied to any web development language.​",
+        "sessionPreReq": [
+            "Have a basic understanding of data tables, including the use of columns and rows",
+            "Familiarity with any programming language​"
+        ],
+        "sessionOutcomes": [
+            "Common developer related database issues related to organizing data",
+            "Database Normalization - What it is and why it is important",
+            "First (1NF), Second (2NF), Third (3NF), and Boyd Codd Normal Form (BCNF or 3.5NF)",
+            "Techniques to organize your data tables and ways to avoid data redundancy"
+        ],
+        "sessionRegisterLink": "https://www.eventbrite.com/e/database-organization-basics-for-web-developers-tickets-112402095694",
+        "sessionLink": "course-2",
+        "instructorName": "Allison Drake",
+        "instructorBio": "Allison Drake is a web designer and developer from the Pacific Northwest who uses her broad background and skillset to produce organized solutions with a pleasing user experience. She holds a BA in Humanities with focuses in Anthropology, Art, Music, and Sociology, as well as a Certification in Professional Writing from Washington State University. Allison recently completed her AAT in Web Development from Clark College in conjunction with Microsoft Technology Associate Certifications; Database Fundamentals, Software Development Fundamentals, Programming using Python, and Programming using HTML and CSS. She has over 15 years of experience solving problems for customers and coworkers in the industries of manufacturing, logistics, biodiesel production, healthcare, marketing, ecommerce, and product development.",
+        "instructorImg": "https://ctec-assets.s3.amazonaws.com/allison.jpg"
+    },
+    {
+        "sessionTitle": "Getting Started with Vue.js",
+        "sessionDate": "Sunday, July 26",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "Intermediate",
+        "sessionDescription": "Progressive front-end framework founded by Evan You. In this session I will introduce you to Vue and we are going to build a simple todo App with Vue. We then are going to deploy it to Github pages.​",
+        "sessionPreReq": [
+            "HTML / CSS / JavaScript",
+            "Visual Studio Code with Node.js installed",
+            "A GitHub account"
+        ],
+        "sessionOutcomes": [
+            "Have an idea about how to use Vue.js",
+            "Know how to create Vue.js components",
+            "Be familiar with Vue.js project structure",
+            "Know how to deploy an app to GitHub Pages​"
+        ],
+        "sessionRegisterLink": "https://www.eventbrite.com/e/getting-started-with-vuejs-tickets-112402452762",
+        "sessionLink": "course-3",
+        "instructorName": "Illia Saakian",
+        "instructorBio": "​A dedicated technology student committed to learning and growing in the field of Web Development and Programming. An aspiring leader who takes on any challenge to come up with innovative solutions. With a strong passion for JavaScript, Ely is here to teach you the fundamentals of Vue.js.",
+        "instructorImg": null
+    }
+]
