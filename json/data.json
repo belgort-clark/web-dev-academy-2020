@@ -62,5 +62,108 @@
         "instructorName": "Illia Saakian",
         "instructorBio": "​A dedicated technology student committed to learning and growing in the field of Web Development and Programming. An aspiring leader who takes on any challenge to come up with innovative solutions. With a strong passion for JavaScript, Ely is here to teach you the fundamentals of Vue.js.",
         "instructorImg": null
+    },
+    {
+        "sessionTitle": "Getting Started with Django",
+        "sessionDate": "Sunday, August 2",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "Intermediate",
+        "sessionDescription": "Django is a Python web development framework that allows you to create powerful web applications fast.",
+        "sessionPreReq": [
+            "Programming in Python 3",
+            "Installing Python modules",
+            "Familiarity with principles of client-to-server interaction (i.e. browser and web server)",
+            "Familiarity with IP addresses and ports",
+            "Familiarity with databases",
+            "How to load, edit, and save files"
+        ],
+        "sessionOutcomes": [
+            "Know how to start Django projects",
+            "Create a simple Django web application that works with data",
+            "Become familiar with the Django pipeline​"
+        ],
+        "sessionRegisterLink": "https://www.eventbrite.com/e/getting-started-with-django-tickets-112402707524",
+        "sessionLink": "course-4",
+        "instructorName": "Josiah Peterson",
+        "instructorBio": "Making technology accessible to everyone is a desire for this student at Clark College. As technology becomes more and more a fact of life for every person, Josiah hopes that technology can advance while also being accessible to every person, especially in the Web industry.Josiah has both front-end and back-end development experience. He has experience in Python for back-end development, and React.js with front-end development​",
+        "instructorImg": null
+    },
+    {
+        "sessionTitle": "Getting Started with CSS Animations",
+        "sessionDate": "Sunday, August 9",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "Intermediate",
+        "sessionDescription": "CSS animations make it possible to animate transitions from one CSS style configuration to another. Animations consist of two components, a style describing the CSS animation and a set of keyframes that indicate the start and end states of the animation’s style, as well as possible intermediate waypoints.",
+        "sessionPreReq": [
+            "Basic HTML and CSS"
+        ],
+        "sessionOutcomes": [
+            "Animate a web page without the use of JavaScript or Flash",
+            "Learn numerous properties to control an animations speed, direction and duration amongst other properties",
+            "Implement simple and advanced CSS animations",
+            "Build multi-stage animations using the @keyframes property"
+        ],
+        "sessionRegisterLink": "https://www.eventbrite.com/e/getting-started-with-css-animations-tickets-112482094974",
+        "sessionLink": "course-5",
+        "instructorName": "Kyle McDonald",
+        "instructorBio": "Kyle McDonald is, to put it plainly, a naturally curious individual. Never content with sticking to the basics, Kyle seeks out variety, techniques, and unique nuances that have helped him to attain high levels of understanding and mastery in several disciplines including woodworking, painting, music and now web development! With this class, Kyle hopes to impart some of the wisdom he has been able to glean through his time at Clark College and the countless hours he has spent scouring the internet in order to learn the art of CSS animations!​",
+        "instructorImg": "https://ctec-assets.s3.amazonaws.com/kyle.jpg"
+    },
+    {
+        "sessionTitle": "Getting Started with Node.js",
+        "sessionDate": "Sunday, August 16",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "Intermediate",
+        "sessionDescription": "More on this session coming soon.",
+        "sessionPreReq": [
+            "Coming soon."
+        ],
+        "sessionOutcomes": [
+            "Coming soon."
+        ],
+        "sessionRegisterLink": null,
+        "sessionLink": "course-6",
+        "instructorName": "Josiah Peterson",
+        "instructorBio": "Making technology accessible to everyone is a desire for this student at Clark College. As technology becomes more and more a fact of life for every person, Josiah hopes that technology can advance while also being accessible to every person, especially in the Web industry.Josiah has both front-end and back-end development experience. He has experience in Python for back-end development, and React.js with front-end development​",
+        "instructorImg": null
+    },
+    {
+        "sessionTitle": "Cyber Security for Web Developers",
+        "sessionDate": "Sunday, August 23",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "Intermediate",
+        "sessionDescription": "​This session will cover the top 10 most common types of risks you should keep in mind when developing a web application of your own. Each category will be covered at a high level without diving into too much technical detail, while providing you with the conceptual understanding and awareness necessary to protect your code and data.",
+        "sessionPreReq": [
+            "Familiarity with web browsers and HTML",
+            "Familiarity with any programming language"
+        ],
+        "sessionOutcomes": [
+            "OWASP Top 10 - what it is and why it’s important",
+            "Heightened awareness of common web security weaknesses",
+            "How to solve or find resources to solve these weaknesses when discovered"
+        ],
+        "sessionRegisterLink": "https://www.eventbrite.com/e/cyber-security-for-web-developers-tickets-112483854236",
+        "sessionLink": "course-7",
+        "instructorName": "Blaine Blodgette",
+        "instructorBio": "Blaine is a Technical Support Engineer at Tripwire who uses his 15 years of Network Administration and Operations experience to guide customers through challenging problems. He graduated with a BS in Computer Information Systems with an emphasis in Forensics from Devry University, an AAS in Network Administration from Heald, and also holds CompTIA A+, Linux+,and CISSP certifications.",
+        "instructorImg": "https://ctec-assets.s3.amazonaws.com/blaine.jpg"
+    },
+    {
+        "sessionTitle": "Getting Started with Laravel",
+        "sessionDate": "Saturday, August 29",
+        "sessionTime": "1:00-2:30 PM PST",
+        "skillLevel": "intermediate",
+        "sessionDescription": "More on this session coming soon.",
+        "sessionPreReq": [
+            "Coming soon."
+        ],
+        "sessionOutcomes": [
+            "Coming soon."
+        ],
+        "sessionRegisterLink": null,
+        "sessionLink": "course-8",
+        "instructorName": "Iosif Livadaru",
+        "instructorBio": "Iosif's bio is coming soon.",
+        "instructorImg": null
     }
 ]

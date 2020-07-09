@@ -15,23 +15,23 @@
 fetch("./json/data.json")
     .then(res => res.json())
     .then(data => {
-        // console.log(data)
+        console.log(data)
         populateSchedule(data)
         populateCourses(data)
     }).catch(err => {
         console.error(err)
     })
 
-function setCurrentYear() {
-    const footerYear = document.querySelector("#footerYear")
-    // const headerYear = document.querySelector("#headerYear")
+// function setCurrentYear() {
+//     const footerYear = document.querySelector("#footerYear")
+//     // const headerYear = document.querySelector("#headerYear")
 
-    let date = new Date()
-    // headerYear.innerText = `Summer ${date.getFullYear()}`
-    footerYear.innerHTML = `<p>&copy; ${date.getFullYear()}</p>`
-}
+//     let date = new Date()
+//     // headerYear.innerText = `Summer ${date.getFullYear()}`
+//     footerYear.innerHTML = `<p>&copy; ${date.getFullYear()}</p>`
+// }
 
-setCurrentYear()
+// setCurrentYear()
 
 function populateSchedule(data) {
     const scheduleContainer = document.querySelector("#sessionSchedule")
@@ -74,7 +74,17 @@ function populateCourses(data) {
         }
 
         let instructorBio = data[i].instructorBio
-        let sessionRegisterLink = data[i].sessionRegisterLink
+
+        // doesn't work right now
+        let sessionRegisterLink = ''
+        if (data[i].sessionRegisterLink !== null) {
+            sessionRegisterLink = data[i].sessionRegisterLink
+        } else {
+            let registerMsg = document.querySelector(".registerMsg")
+            let registerBtn = document.querySelector(".btn")
+            registerBtn.style.display = "none"
+            registerMsg.innerText = "Sorry, registration will be available soon."
+        }
 
         let sessionPreReq = () => {
             let preReqs = '<ul>'
@@ -111,9 +121,18 @@ function populateCourses(data) {
                 </div>
 
                 <div class="course-instructor">
-                    <h2>Your Instructor - ${instructorName}</h2>
-                    <div class="instructor__bio-img">
-                        <p><img src="${instructorImg}" alt="${instructorName}"> ${instructorBio}</p>
+                    <div class="dt-img">
+                        <img src="${instructorImg}" alt="${instructorName}">
+                        <div class="dt-img-text">
+                            <h2>Your Instructor - ${instructorName}</h2>
+                            <p>${instructorBio}</p>                        
+                        </div>
+                    </div>
+                    <div class="mb-img">
+                        <h2>Your Instructor - ${instructorName}</h2>
+                        <div class="instructor__bio-img">
+                            <p><img src="${instructorImg}" alt="${instructorName}"> ${instructorBio}</p>
+                        </div>
                     </div>
                 </div>
 
@@ -129,6 +148,7 @@ function populateCourses(data) {
 
                 <div class="course-register">
                     <button class="btn"><a class="btn-register" href="${sessionRegisterLink}" style="color:white">Register</a></button>
+                    <p class="registerMsg"></p>
                 </div>
             </div>`
 
