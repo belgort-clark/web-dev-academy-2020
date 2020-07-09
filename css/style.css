@@ -256,11 +256,15 @@ footer h1 {
 
 .footer__section-two {
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 0;
     color: var(--off-white);
-    /* background: red; */
+}
+
+.footer__section-two p {
+    text-align: center;
 }
 
 .footer__questions {
@@ -287,6 +291,18 @@ footer h1 {
     }
     .descriptive-text {
         font-size: calc(var(--general-font-size)*1.2);
+    }
+    .footer__section-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 0;
+        color: var(--off-white);
+        /* background: red; */
+    }
+    .footer__section-two p {
+        text-align: left;
     }
 }
 
@@ -352,7 +368,8 @@ footer h1 {
         margin-bottom: 100px;
     }
     .important-info__section h1 {
-        margin: 0;
+        margin: 0 0 20px 0;
+        font-size: calc(var(--general-font-size)*2.5)
     }
     .credit {
         grid-area: credit;

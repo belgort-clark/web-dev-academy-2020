@@ -153,17 +153,21 @@
         "sessionDate": "Saturday, August 29",
         "sessionTime": "1:00-2:30 PM PST",
         "skillLevel": "intermediate",
-        "sessionDescription": "More on this session coming soon.",
+        "sessionDescription": "Laravel is a free and open-source PHP web framework. In this session you will learn how to create a Laravel project and how to use the MVC architectural pattern along with a database.",
         "sessionPreReq": [
-            "Coming soon."
+            "Familiarity with PHP and Object-Oriented Programming",
+            "Familiarity with Blade templating engine",
+            "Familiarity with Databases"
         ],
         "sessionOutcomes": [
-            "Coming soon."
+            "Learn how to create a Laravel project.",
+            "Know how the MVC (Model-View-Controller) architectural pattern works.",
+            "Learn how to save data to a database and also how to use that data in your app."
         ],
         "sessionRegisterLink": "https://www.eventbrite.com/e/getting-started-with-the-php-laravel-framework-tickets-112904053062",
         "sessionLink": "course-8",
         "instructorName": "Iosif Livadaru",
-        "instructorBio": "Iosif's bio is coming soon.",
-        "instructorImg": null
+        "instructorBio": "I’m a Full Stack Developer with experience in many Web Development Frameworks. I am dedicated to learn the best practices of making a successful, well written application using the most popular frameworks. Right after I graduated, I wanted to dig deeper in the Web Development industry. A lot of people told me Laravel is a whole new level and it’s going to be challenging. Well, here I am, ready to teach you the basics of creating your own Laravel project.",
+        "instructorImg": "./img/instructors/iosif-livadaru.jpg"
     }
 ]
