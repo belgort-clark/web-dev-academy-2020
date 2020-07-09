@@ -76,15 +76,17 @@ function populateCourses(data) {
         let instructorBio = data[i].instructorBio
 
         // doesn't work right now
-        let sessionRegisterLink = ''
-        if (data[i].sessionRegisterLink !== null) {
-            sessionRegisterLink = data[i].sessionRegisterLink
-        } else {
-            let registerMsg = document.querySelector(".registerMsg")
-            let registerBtn = document.querySelector(".btn")
-            registerBtn.style.display = "none"
-            registerMsg.innerText = "Sorry, registration will be available soon."
-        }
+        let sessionRegisterLink = data[i].sessionRegisterLink
+        // if (data[i].sessionRegisterLink !== null) {
+        //     sessionRegisterLink = data[i].sessionRegisterLink
+        // } else {
+        //     let registerMsg = document.querySelector(".registerMsg")
+        //     console.log(`#btn-${i + 1}`)
+        //     let registerBtn = document.querySelector(`#btn-${i + 1}`)
+        //     console.log(registerBtn)
+        //     registerBtn.style.display = "none"
+        //     registerMsg.innerText = "Sorry, registration will be available soon."
+        // }
 
         let sessionPreReq = () => {
             let preReqs = '<ul>'
@@ -105,7 +107,7 @@ function populateCourses(data) {
         }
 
         output +=
-            `<div id="course-${[i + 1]}" class="course course-${[i]}">
+            `<div id="course-${i + 1}" class="course">
                 <div class="course-header">
                     <h1>${sessionTitle}</h1>
                     <div class="course-metadata">
@@ -147,7 +149,7 @@ function populateCourses(data) {
                 </div>
 
                 <div class="course-register">
-                    <button class="btn"><a class="btn-register" href="${sessionRegisterLink}" style="color:white">Register</a></button>
+                    <button id="btn-${i + 1}" class="btn"><a class="btn-register" href="${sessionRegisterLink}" style="color:white">Register</a></button>
                     <p class="registerMsg"></p>
                 </div>
             </div>`

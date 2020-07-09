@@ -83,7 +83,7 @@ a:active {
 }
 
 .underline-text {
-    text-decoration: underline;
+    font-weight: 700;
 }
 
 /* .main-content {
