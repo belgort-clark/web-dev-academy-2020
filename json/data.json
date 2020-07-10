@@ -61,7 +61,7 @@
         "sessionLink": "course-3",
         "instructorName": "Illia Saakian",
         "instructorBio": "​A dedicated technology student committed to learning and growing in the field of Web Development and Programming. An aspiring leader who takes on any challenge to come up with innovative solutions. With a strong passion for JavaScript, Ely is here to teach you the fundamentals of Vue.js.",
-        "instructorImg": null
+        "instructorImg": "./img/instructors/illia-saakian.jpg"
     },
     {
         "sessionTitle": "Getting Started with Django",
